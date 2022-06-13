@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>AboutUs - VDNStore</title>
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="./index.html"><img src="./Capture.PNG" width="125px" height="70px"></a>
+            </div>
+            <nav>
+                <ul id="Menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./product.html">Product</a></li>
+                    <li><a href="./aboutus.html">About</a></li>
+                    <li><a href="./account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img src="./images/cart.png" width="30px" height="30px"></a>
+            <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+
+    <div class="about-us">
+        <div class="small-container">
+            <h2 class="title">Giới thiệu thành viên</h2>
+            <div class="member">
+                <div class="memberr">
+                    <h3>Nguyễn Đăng Vương</h3>
+                    <p>MSSV: 203321053 <br> Lớp: 12DHBM8</p>
+                    <img src="./vuong.jpg" width="200px" height="200px">
+                </div>
+                <div class="memberr">   
+                    <h3>Nguyễn Lê Duy</h3>
+                    <p>MSSV: 2033210286 <br> Lớp: 12DHBM8</p>
+                    <img src="./duy1.jpg" width="200px" height="200px">
+                </div>
+                <div class="memberr">
+                    <h3>Trần Quang Nhật</h3>
+                    <p>MSSV: 2033210967 <br> Lớp: 12DHBM8</p>
+                    <img src="./nhat.jpg" width="200px" height="200px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>VDN-Store</h3>
+            <p>Follow Us</p>
+            <ul class="socials">
+                <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-google"></ion-icon></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Coppyright &copy;2022 VDN-Store. Designed By Group 13</p>
+        </div>
+    </footer>
+
+    <script>
+        var Menu = document.getElementById("Menu");
+        Menu.style.maxHeight = "0px";
+        function menutoggle(){
+            if(Menu.style.maxHeight == "0px")
+            {
+                Menu.style.maxHeight = "200px";
+            }
+            else{
+                Menu.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

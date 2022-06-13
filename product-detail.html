@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Chi tiết - VDNStore</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="./index.html"><img src="./Capture.PNG" width="125px" height="70px"></a>
+            </div>
+            <nav>
+                <ul id="Menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./product.html">Product</a></li>
+                    <li><a href="./aboutus.html">About</a></li>
+                    <li><a href="./account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img src="./images/cart.png" width="30px" height="30px"></a>
+            <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="small-container single-product" >
+        <div class="row">
+            <div class="col-2"><img src="./af1.webp" id="productimg" width="100%">
+                <div class="small-img-row">
+                    <div class="smail-img-col">
+                        <img src="./4a51dc63-eb4d-4ddf-a8ba-28bd3fbff305.webp" class="small-img" width="100%">
+                    </div>
+                    <div class="smail-img-col">
+                        <img src="./793e1ac9-7e62-4f8b-89e1-128b4880e4c1.webp" class="small-img" width="100%">
+                    </div>
+                    <div class="smail-img-col">
+                        <img src="./82d3e348-00ac-4bb4-98a7-6c236f5dcb71.webp" class="small-img" width="100%">
+                    </div>
+                    <div class="smail-img-col">
+                        <img src="./98efc31d-75f2-4f79-b452-a66380a0d2dc.webp" class="small-img" width="100%">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <p>Home / Shoes</p>
+                <h1>Nike AF 1</h1>
+                <h4>599.000đ</h4>
+                <select>
+                    <option>37 - 38</option>
+                    <option>38 - 39</option>
+                    <option>40 - 41</option>
+                </select>
+                <input type="number" value="1">
+                <a href="./cart.html" class="btn">Thêm vào giỏ hàng</a>
+                <h3>Chi tiết</h3>
+                <p>Sản phẩm này được rất nhiều người mua nhanh chóng mua ngay kẻo hết số lượng có hạn</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Sảm Phẩm Liên Quan</h2>
+            <a href="./product.html"><p>Xem Thêm</p></a>
+        </div>
+    </div>
+    
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="./cv.jpg">
+                <h4>Converse Run Star</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>699.000đ</p>
+            </div>
+            <div class="col-4">
+                <img src="./mlb-bigball-chunky-p-boston-red-sox-white-red-32shc2111-43i-0.webp">
+                <h4>MLB Bigball Chunky P Boston</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>300.000đ</p>
+            </div>
+            <div class="col-4">
+                <img src="./nb.webp">
+                <h4>New Balance MX608V5</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>750.000đ</p>
+            </div>
+            <div class="col-4">
+                <img src="./png.webp">
+                <h4>Puma X Dunkin</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>950.000đ</p>
+            </div>
+        </div>
+    </div>
+        
+    <footer>
+        <div class="footer-content">
+            <h3>VDN-Store</h3>
+            <p>Follow Us</p>
+            <ul class="socials">
+                <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-google"></ion-icon></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Coppyright &copy;2022 VDN-Store. Designed By Group 13</p>
+        </div>
+    </footer>
+
+    <script>
+        var Menu = document.getElementById("Menu");
+        Menu.style.maxHeight = "0px";
+        function menutoggle(){
+            if(Menu.style.maxHeight == "0px")
+            {
+                Menu.style.maxHeight = "200px";
+            }
+            else{
+                Menu.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <script>
+        var productimg = document.getElementById("productimg");
+        var smallimg = document.getElementsByClassName("small-img");
+        smallimg[0].onclick = function(){
+            productimg.src = smallimg[0].src;
+        } 
+        smallimg[1].onclick = function(){
+            productimg.src = smallimg[1].src;
+        }  
+        smallimg[2].onclick = function(){
+            productimg.src = smallimg[2].src;
+        }  
+        smallimg[3].onclick = function(){
+            productimg.src = smallimg[3].src;
+        }   
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

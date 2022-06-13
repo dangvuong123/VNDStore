@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>All Products - VDNStore</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="./index.html"><img src="./Capture.PNG" width="125px" height="70px"></a>
+            </div>
+            <nav>
+                <ul id="Menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./product.html">Product</a></li>
+                    <li><a href="./aboutus.html">About</a></li>
+                    <li><a href="./account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img src="./images/cart.png" width="30px" height="30px"></a>
+            <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Tất cả sảm phẩm</h2>
+            <select>
+                <option>All</option>
+                <option>Nike</option>
+                <option>Adidas</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <a href="./product-detail.html"><img src="./af1.webp"></a>
+                <h4>Nike AF 1</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>599.000đ</p>
+            </div>
+            <div class="col-4">
+                <a href="./product-detail.html"><img src="./D3HY28-500x500.jpg"></a>
+                <h4>Vans Old Skool</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>300.000đ</p>
+            </div>
+            
+            <div class="col-4">
+                <img src="./adidas.webp">
+                <h4>Adidas Ultra Boot</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>700.000đ</p>
+            </div>
+            <div class="col-4">
+                <img src="./jordan.webp">
+                <h4>Air Jordan 1</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>499.000đ</p>
+            </div>
+            <div class="col-4">
+                <img src="./cv.jpg">
+                <h4>Converse Run Star</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>699.000đ</p>
+            </div>
+            <div class="col-4">
+                <img src="./mlb-bigball-chunky-p-boston-red-sox-white-red-32shc2111-43i-0.webp">
+                <h4>MLB Bigball Chunky P Boston</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>300.000đ</p>
+            </div>
+            <div class="col-4">
+                <img src="./nb.webp">
+                <h4>New Balance MX608V5</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>750.000đ</p>
+            </div>
+            <div class="col-4">
+                <img src="./png.webp">
+                <h4>Puma X Dunkin</h4>
+                <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+                <p>950.000đ</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>VDN-Store</h3>
+            <p>Follow Us</p>
+            <ul class="socials">
+                <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-google"></ion-icon></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Coppyright &copy;2022 VDN-Store. Designed By Group 13</p>
+        </div>
+    </footer>
+
+    <script>
+        var Menu = document.getElementById("Menu");
+        Menu.style.maxHeight = "0px";
+        function menutoggle(){
+            if(Menu.style.maxHeight == "0px")
+            {
+                Menu.style.maxHeight = "200px";
+            }
+            else{
+                Menu.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
